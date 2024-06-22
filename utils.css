@@ -1,0 +1,58 @@
+.flex {
+  display: flex;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.nav-item {
+  position: relative;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.nav-link {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.item-left {
+  align-items: left;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+.semibold {
+  font-weight: bolder;
+}
+
+.mx-2 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.shadow {
+  text-shadow: shadow-sm p-3 mb-5 bg-white rounded;
+
+}
