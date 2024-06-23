@@ -50,13 +50,18 @@ nav ul li {
 
 }
 
+/* Header style for profile  ,wishlist and bag  */
+
 .header ul li a:hover {
   color: #091181;
 }
 
-header ul .submenu {
+.right .nav-item .submenu {
   display: none;
   position: absolute;
+  /* width: 40vw;
+  height: 40vw;
+  text-align: left; */
   top: 100%;
   left: 0;
   background-color: white;
@@ -66,34 +71,91 @@ header ul .submenu {
   margin: 0;
   margin-top: 0px;
   box-shadow: 0 20px 45px rgb(3, 2, 2, 0.15);
-  z-index: 999;
+  z-index: auto;
 
   transition: all ease 0.5s;
 }
 
-header ul li a:hover .submenu {
+.right .nav-item:hover {
   opacity: 1;
   /* Make it visible */
   margin-top: 0;
   /* Adjust positioning */
 }
 
-.submenu li {
-  padding: 10px
+.right .submenu li {
+  padding: 5px
 }
 
-.submenu a {
+.right .submenu a {
   text-decoration: none;
   color: black;
-  display: block;
+  display: table;
 }
 
-.submenu a:hover {
+.right .submenu a:hover {
   background-color: #f0f0f0;
 }
 
-.nav-item:hover .submenu {
+.right .nav-item:hover .submenu {
   display: block;
+}
+
+/* submeu style for left side "men","womens" etc */
+
+.navbar-nav .nav-item .submenu {
+  display: none;
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  box-shadow: 0 20px 45px rgb(3, 2, 2, 0.15);
+  z-index: auto;
+
+  transition: all ease 0.5s;
+}
+
+.navbar-nav .nav-item:hover {
+  opacity: 1;
+  /* Make it visible */
+  margin-top: 0;
+  /* Adjust positioning */
+}
+
+.navbar-nav .nav-item:hover .submenu {
+  display: block;
+}
+
+.navbar-nav .nav-item .submenu a {
+  text-decoration: none;
+  color: black;
+  display: table;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #091181;
+  /* Example hover color */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+  /* Example color */
+  padding: 10px 15px;
+  /* Example padding */
+}
+
+.navbar-nav .nav-item .submenu li a:hover {
+  /* Hover effect for the first submenu item */
+  color: #091181;
+  /* Example hover color */
 }
 
 .nav-item i {

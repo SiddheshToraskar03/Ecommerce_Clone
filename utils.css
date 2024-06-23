@@ -47,6 +47,10 @@
   font-weight: bolder;
 }
 
+.normal {
+  font-weight: normal;
+}
+
 .mx-2 {
   margin-left: 12px;
   margin-right: 12px;
@@ -56,3 +60,4 @@
   text-shadow: shadow-sm p-3 mb-5 bg-white rounded;
 
 }
+

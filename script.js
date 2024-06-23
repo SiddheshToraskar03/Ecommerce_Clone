@@ -1,5 +1,3 @@
-
-
 const imageContainer = document.querySelector('.image-container');
 
 // Function to scroll the image container
@@ -23,11 +21,11 @@ setInterval(scrollImages, 5000);
 // reponsive button script 
 function performSearch(query) {
   fetch(`your-api-endpoint?q=${query}`)
-      .then(response => response.json())
-      .then(data => {
-          displayResults(data.results);
-      })
-      .catch(error => console.error('Error:', error));
+    .then(response => response.json())
+    .then(data => {
+      displayResults(data.results);
+    })
+    .catch(error => console.error('Error:', error));
 }
 
 document.getElementById('search-button').addEventListener('click', function() {
