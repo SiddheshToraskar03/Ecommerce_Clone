@@ -107,7 +107,7 @@ nav ul li {
   display: none;
   position: absolute;
   width: 40vw;
-  height: 40vw;
+  height: 28vw;
   text-align: left;
   top: 100%;
   left: 0;
@@ -154,13 +154,34 @@ nav ul li {
 
 .navbar-nav .nav-item .submenu li a:hover {
   /* Hover effect for the first submenu item */
-  color: #091181;
+  color: black;
+  font-weight: bold;
   /* Example hover color */
 }
 
 .nav-item i {
   font-size: 20px;
 }
+
+
+.top-wear {
+  padding-top: 2px;
+}
+
+.submenu hr {
+  border-top: 1px light #9d8ed2;
+  /* Adjust color and thickness as needed */
+  width: 150px;
+  /* Make the line span the full width of the submenu */
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-top: 2em;
+  /* Add some spacing above the line */
+  margin-left: 10px;
+  margin-bottom: 10px;
+  /* Add some spacing below the line */
+}
+
 
 /*Search bar button  */
 .btn-outline-secondary {
